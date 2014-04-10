@@ -1,0 +1,89 @@
+body {
+  /*background-color:#E9DFC9;*/
+  background-color:#fafafa;
+  background-image:url('gradient.png');
+  background-repeat:repeat-x;
+  
+  
+  color:#333;
+  font-family:"alber-new-1","alber-new-2", Lucida Grande, Segoe UI, sans-serif;
+  font-size:12pt;
+  font-weight:300;
+  margin:0px auto;
+  padding:0px 0px;
+}
+
+.bordered {
+  border:thin solid #ccc;
+}
+
+input:focus, button:active, textarea:focus, button:focus {
+  outline:none;
+  border:thin solid #aaa;
+  background-color:white;
+}
+
+td.label {
+  text-align:right;
+}
+
+button {
+  background-color:#FFDF70;
+  
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFDF70', endColorstr='#FFFF99'); /* for IE */
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFDF70), to(#FFFF99)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #FFDF70,  #FFFF99); /* for firefox 3.6+ */ 
+  
+  border:thin solid #bfa700; 
+  cursor:pointer;
+}
+
+button:hover {
+
+  background-color:#FFDF70;
+  
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFDF70', endColorstr='#FFDF70'); 
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFDF70), to(#FFDF70));
+  background: -moz-linear-gradient(top,  #FFDF70,  #FFDF70); 
+  
+
+}
+
+input, textarea {
+  background-color:#fafafa;
+  border:thin solid #ccc;
+}
+
+input, button, textarea {
+  color:inherit;
+  font:inherit;
+  padding:0.35em 0.5em;
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  margin:0px;
+}
+
+.large {
+  font-size:16pt;
+}
+
+input[type="text"]:focus {
+  outline:none;
+}
+
+input[type="password"] {
+  font-family:sans-serif !important;
+}
+
+a {
+  color:inherit;
+  font-size:0.9em;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+}
+
